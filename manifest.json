@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "EmailGrabber",
+  "description": "This extension grabs all of the emails on the current page.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "email_icon.svg",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
