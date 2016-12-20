@@ -5,9 +5,10 @@
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "email_icon.svg",
+    "default_icon": "contacts_icon.svg",
     "default_popup": "popup.html"
   },
+
   "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/"
