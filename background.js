@@ -12,7 +12,7 @@ function displayEmails(domContent) {
      document.write(emailArray[i]);
      }
 }
-*/
+
 
 emailArray = [];
 
@@ -30,3 +30,4 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     chrome.tabs.sendMessage(tab.id, {text: 'report_back'}, getEmails);
     chrome.browserAction.setPopup('popup.html');
 });
+    */
