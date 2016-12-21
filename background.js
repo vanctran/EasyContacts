@@ -18,7 +18,7 @@ emailArray = [];
 
 function getEmails(tabDOM) {
 
-    var searchIn = tabDOM.body.innerHTML;
+    var searchIn = tabDOM.innerHTML;
     var stringContext = searchIn.toString();
     emailArray = stringContext.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);
     return;
@@ -28,4 +28,5 @@ function getEmails(tabDOM) {
 
 chrome.browserAction.onClicked.addListener(function (tab) {
     chrome.tabs.sendMessage(tab.id, {text: 'report_back'}, getEmails);
+    chrome.browserAction.setPopup('popup.html');
 });
