@@ -1,6 +1,9 @@
 # EasyContacts
 Google Chrome Extension that grabs contact information on the current page. The main motivation of this application was to help a friend boost productivity at his workplace.
 
+# Versions
+Stable - 1.01
+
 # Installation
 Can be installed through the official Chrome Web Store:
 https://chrome.google.com/webstore/detail/emailgrabber/copokfngaafhcigcpchkdihkeaebgmlg
