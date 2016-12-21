@@ -24,5 +24,8 @@ While on any website, just click the EasyContacts button and a popup containing 
 
 # Changelog
 
+## 1.01
+Cleaned up comments in code and removed unnecessary files.
+
 ## 1.0
 Initial release of product. Allows basic parsing of email addresses from the DOM.
